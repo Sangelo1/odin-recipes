@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.title-box {
+    background-color: blue;
+    font-size: 24;
+
+    width: 50%;
+    height: auto;
+
+    /* Properties */
+    padding: 16px;
+    margin: 0 auto;
+
+    margin-bottom: 24px;
+}
+
+
+.context-box {
+    background-color: red;
+
+    width: 80%;
+    height: auto;
+
+    margin: 8px auto 8px auto;
+    padding: 24px;
+}
+
+.header-content-box {
+    background-color: green;
+
+    width: auto;
+
+    margin: 12px 0 24px 0;
+    padding: 16px 0;
+
+    font-size: 18px;
+}
+
+.img-box1 img {
+    width: 50%;
+    height: auto;
+
+    /* Images by default are inline so they cannot be affected with margin and padding and so on. Change into display block in order to modify the image layout. */
+    display: block;
+    margin: 32px auto 0 auto;
+}
+
+.recc-box {
+    background-color: yellow;
+
+    width: 80%;
+    height: auto;
+
+    margin: 0 auto 16px auto;
+    padding: 16px;
+}
+
+.header-recc-box {
+    background-color: green;
+    width: auto;
+
+    margin: 12px 0 12px 0;
+    padding: 0px 0px 8px 0px;
+
+    font-size: 18px;
+}
+
+.links-recc-box {
+    background-color: orange;
+
+    padding: 16px;
+    margin: 8px 16px;
+}
+
