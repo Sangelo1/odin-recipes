@@ -82,3 +82,145 @@ body {
     margin: 8px 16px;
 }
 
+
+
+/* Flex Box Implementation */
+
+.menu-container {
+    display: flex;
+    background-color: lightblue;
+
+    padding: 20px 0px;
+
+    /* Flexbox Properties */
+    /* justify-content has other properties such as 'center', 'flex-start', 'flex-end', 'space-around', and 'space-between' */
+    justify-content: center; 
+}
+
+.menu {
+    width: 900px;
+
+    padding: 8px;
+
+    /* Changing FlexBox properties with multiple flex items */
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.links {
+    width: auto;
+
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+.login {
+    margin-left: 20px;
+}
+
+
+.header-container {
+    background-color: lightgray;
+    display: flex;
+
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+
+    padding: 8px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 25px;
+    height: auto;
+
+    display: block;
+    margin-left: 75px;
+
+}
+
+
+
+.header-title {
+    width: auto;
+    height: auto;
+
+}
+
+/* Photo Grid Implementation With FlexBox */
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.photo-grid {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+
+
+    border: 1px solid red;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.photo-grid-item {
+    width: 300px;;
+    height: 300px;
+
+    border: 1px solid yellow;
+
+}
+
+.photo-grid-item img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid green;
+    background-color: blue;
+
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three,
+.footer-one {
+    background-color:blueviolet;
+    flex: initial;
+
+    width: 300px;
+}
+
+
+.register {
+    margin-left: auto;
+}
+
